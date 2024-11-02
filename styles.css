@@ -1,0 +1,284 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body .corpo{
+    width: 1000px;
+    min-height: 100vh;
+    margin: 1px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+}
+
+.menucab, .header, .link{
+    display: flex;
+    flex-direction: row;
+}
+
+.menucab, .minilog, .favorito{
+    font-size: 18px;
+    
+}
+
+.menucab{
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.log-favorito{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menucab, .log-favorito, .menuss{
+    gap: 20px;
+    color: #939292;
+    
+}
+
+li:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li, .minilog, .favorito{
+    cursor: pointer;
+}
+
+.logfav, .link{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.link{
+    margin-left: 40px;
+    align-items: center;
+}
+
+
+
+.fotoscir{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    background-color: #ededed;
+    padding: 15px;
+    
+    border-radius: 5px;
+    margin-top: -35px;
+}
+.profile-foto{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.emoj{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+
+.simb1{
+    width: 20px;
+}
+
+
+.profile-foto:hover{
+    background: linear-gradient(45deg,#bc1888, #cc2366, #f09433, #e6683c, #dc2743);
+
+    
+}
+
+.content{
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px none;
+    
+    background-image: url('image/carros/hyundai-creta-platnum-safety.webp');
+    background-size: 100%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bola{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+
+.menuss, .menu{
+    display: flex;
+    flex-direction: row;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#form-pesquisa{
+    margin-left: 0px;
+}
+.pesquisa{
+    padding-right: 100px;
+    box-shadow: 0 0 10px rgba(rgb(240, 134, 134), rgb(150, 185, 150), rgb(147, 147, 195), alpha);
+}
+.menuss{
+    
+    gap: 50px;
+}
+
+.menu{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    
+}
+
+.botao-localizar{
+    padding: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+}
+.anuncio{
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.box-anuncio{
+    width: 235px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-anuncio .foto-veiculo{
+    width: 100%;
+    height: 155px;
+    border-radius: 9px;
+}
+
+.box-anuncio .preco{
+    font-size: 24px;
+    color: #b12704;
+    font-weight: bold;
+}
+
+.box-anuncio .titulo{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    
+}
+
+.box-anuncio .descricao{
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+    
+}
+
+.box-anuncio .botao-comprar{
+    background-color: #ededed;
+    color: #555;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.botao-comprar:hover{
+    background-color: #4caf50;
+    color: white;
+
+}
+
+.box-anuncio .localizacao{
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.simb1{
+    cursor: pointer;
+}
+
+
+
+
+
+.footer{
+    background-color: #ededed;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 10;
+    margin-top: 5px;
+}
+
+.baner{
+    align-self: center;
+    width: 850px;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.linha{
+    display: flex;   
+    align-self: center;
+    width: 1px;
+    height: 50px;
+    background-color: #ededed;
+    margin: 0 20px;
+    margin-right: -20px;
+}
